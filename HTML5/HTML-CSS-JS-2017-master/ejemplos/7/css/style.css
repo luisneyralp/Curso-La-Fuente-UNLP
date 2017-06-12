@@ -1,0 +1,72 @@
+body{
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#mario{
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	top: 255;
+}
+
+.mario1{
+	background-image:url('../img/mario1.png');
+}
+
+.mario2{
+	background-image:url('../img/mario2.png');
+}
+.mario3{
+	background-image:url('../img/mario3.png');
+}
+
+.flip{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.button{
+	width: 50px;
+	height: 50px;
+	background-color: #CCC;
+	background-image:url('../img/arrow.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.right{
+
+}
+
+.down{
+       -ms-transform: rotate(90deg); /* IE 9 */
+       -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+       transform: rotate(90deg);
+}
+
+.left{
+       -ms-transform: rotate(180deg); /* IE 9 */
+       -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+       transform: rotate(180deg);
+}
+
+.up{
+       -ms-transform: rotate(270deg); /* IE 9 */
+       -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+       transform: rotate(270deg);
+}
+
+#controls{
+	position:absolute;
+	bottom:0;
+	left:0;
+}

@@ -1,0 +1,32 @@
+.box{
+	width: 200px;
+	height: 200px;
+}
+
+.orange{
+	background-color: #FF6600;
+	position: absolute;
+	top: 0;
+}
+
+.blue{
+	background-color: #0000AA;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.red{
+	background-color: #AA0000;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.green{
+	background-color: #00AA00;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
